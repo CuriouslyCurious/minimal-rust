@@ -14,3 +14,4 @@ anyhow Error Trait https://github.com/dtolnay/anyhow
 ryu Float to String https://github.com/dtolnay/ryu
 bytes Bytes Utility https://github.com/tokio-rs/bytes
 memchr Search Bytes https://github.com/BurntSushi/rust-memchr
+mail-parser E-mail Parser https://github.com/stalwartlabs/mail-parser

@@ -39,6 +39,7 @@ For information on how to reduce your Rust binary's total size:
 | [`ryu`] | Float to String | 0 | [📦](https://crates.io/crates/ryu) • [📚](https://docs.rs/ryu) • [🏠](https://github.com/dtolnay/ryu) |
 | [`bytes`] | Bytes Utility | 0 | [📦](https://crates.io/crates/bytes) • [📚](https://docs.rs/bytes) • [🏠](https://github.com/tokio-rs/bytes) |
 | [`memchr`] | Search Bytes | 0 | [📦](https://crates.io/crates/memchr) • [📚](https://docs.rs/memchr) • [🏠](https://github.com/BurntSushi/rust-memchr) |
+| [`mail-parser`] | E-mail Parser | 0 | [📦](https://crates.io/crates/mail-parser) • [📚](https://docs.rs/mail-parser) • [🏠](https://github.com/stalwartlabs/mail-parser) |
 
 ## One dependency
 
@@ -48,6 +49,7 @@ For information on how to reduce your Rust binary's total size:
 | [`quick-xml`] | XML Parser/Generator | 1 | [📦](https://crates.io/crates/quick-xml) • [📚](https://docs.rs/quick-xml) • [🏠](https://github.com/tafia/quick-xml) |
 | [`nanoserde`] | De/Serializer | 1 | [📦](https://crates.io/crates/nanoserde) • [📚](https://docs.rs/nanoserde) • [🏠](https://github.com/not-fl3/nanoserde) |
 | [`popol`] | Non-Blocking IO | 1 | [📦](https://crates.io/crates/popol) • [📚](https://docs.rs/popol) • [🏠](https://github.com/cloudhead/popol) |
+| [`mio`] | Non-Blocking IO | 1 | [📦](https://crates.io/crates/mio) • [📚](https://docs.rs/mio) • [🏠](https://github.com/tokio-rs/mio) |
 | [`rs-complete`] | Tab Completion | 1 | [📦](https://crates.io/crates/rs-complete) • [📚](https://docs.rs/rs-complete) • [🏠](https://github.com/liquidityc/rs-complete) |
 | [`libc-strftime`] | Time Formatter | 1 | [📦](https://crates.io/crates/libc-strftime) • [📚](https://docs.rs/libc-strftime) • [🏠](https://github.com/cecton/libc-strftime) |
 | [`bstr`] | Byte Strings | 1 | [📦](https://crates.io/crates/bstr) • [📚](https://docs.rs/bstr) • [🏠](https://github.com/BurntSushi/bstr) |
@@ -83,10 +85,12 @@ Specifically running `make count CRATE=<name>` from the root of this repo._
 [`ryu`]: https://crates.io/crates/ryu
 [`bytes`]: https://crates.io/crates/bytes
 [`memchr`]: https://crates.io/crates/memchr
+[`mail-parser`]: https://crates.io/crates/mail-parser
 [`csv-core`]: https://crates.io/crates/csv-core
 [`quick-xml`]: https://crates.io/crates/quick-xml
 [`nanoserde`]: https://crates.io/crates/nanoserde
 [`popol`]: https://crates.io/crates/popol
+[`mio`]: https://crates.io/crates/mio
 [`rs-complete`]: https://crates.io/crates/rs-complete
 [`libc-strftime`]: https://crates.io/crates/libc-strftime
 [`bstr`]: https://crates.io/crates/bstr
